@@ -1,11 +1,11 @@
 const express = require("express");
 const {
-    signup,
-    signin,
-    signout,
-    forgotPassword,
-    resetPassword,
-    socialLogin
+	signup,
+	signin,
+	signout,
+	forgotPassword,
+	resetPassword,
+	socialLogin
 } = require("../controllers/auth");
 
 // import password reset validator
